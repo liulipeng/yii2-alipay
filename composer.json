@@ -1,6 +1,7 @@
 {
     "name": "izyue/alipay",
     "description": "alipay for  Yii2",
+    "keywords": ["yii2", "alipay", "支付宝"],
     "type": "yii2-extension",
     "support": {
         "issues": "https://github.com/liulipeng/yii2-alipay/issues",
@@ -16,5 +17,10 @@
             "email": "liu.lipeng@icloud.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "izyue\\alipay\\": ""
+        }
+    }
 }
