@@ -1,5 +1,5 @@
 {
-    "name": "izyue/alipay",
+    "name": "izyue/yii2-alipay",
     "description": "alipay for  Yii2",
     "keywords": ["yii2", "alipay", "支付宝"],
     "type": "yii2-extension",
