@@ -1,5 +1,5 @@
 {
-    "name": "izyue/yii2-alipay",
+    "name": "izyue/alipay",
     "description": "alipay for  Yii2",
     "type": "yii2-extension",
     "support": {
@@ -16,10 +16,5 @@
             "email": "liu.lipeng@icloud.com"
         }
     ],
-    "minimum-stability": "stable",
-    "autoload": {
-        "psr-4": {
-            "izyue\\alipay\\": ""
-        }
-    }
+    "minimum-stability": "stable"
 }
