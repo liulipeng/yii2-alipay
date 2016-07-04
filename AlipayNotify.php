@@ -132,7 +132,7 @@ class AlipayNotify {
 		$isSgin = false;
 		switch (strtoupper(trim($this->alipay_config['sign_type']))) {
 			case "MD5" :
-				$isSgin = md5Verify($prestr, $sign, $this->alipay_config['key']);
+				$isSgin = AlipayMd5::md5Verify($prestr, $sign, $this->alipay_config['key']);
 				break;
 			default :
 				$isSgin = false;
