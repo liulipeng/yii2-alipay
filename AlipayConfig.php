@@ -15,6 +15,10 @@ class AlipayConfig
 {
 
     private $_alipayConfig = [];
+
+    /**
+     * AlipayConfig constructor.
+     */
     public function __construct() {
         //↓↓↓↓↓↓↓↓↓↓请在这里配置您的基本信息↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
         //合作身份者id，以2088开头的16位纯数字
@@ -33,7 +37,6 @@ class AlipayConfig
         $this->_alipayConfig['cacert'] = __DIR__ . '/cacert.pem';
         //访问模式,根据自己的服务器是否支持ssl访问，若支持请选择https；若不支持请选择http
         $this->_alipayConfig['transport'] = 'http';
-//        return $this->_alipayConfig;
     }
 
     /**
